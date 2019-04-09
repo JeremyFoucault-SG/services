@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CocktailListComponent } from './cocktail-list/cocktail-list.component';
 import {HttpClientModule} from  '@angular/common/http';
+import { NasaComponent } from './nasa/nasa.component';
+import { RouterModule } from '@angular/router';
+
 
 
 
@@ -13,6 +16,7 @@ import {HttpClientModule} from  '@angular/common/http';
 declarations: [
 AppComponent,
 CocktailListComponent,
+NasaComponent,
 
 
 ],
@@ -21,6 +25,7 @@ BrowserModule,
 AppRoutingModule,
 FormsModule,
 HttpClientModule,
+RouterModule,
 
 
 
