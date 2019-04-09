@@ -1,0 +1,13 @@
+.corps{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+ }
+ h1{
+    margin: auto;
+ }
+ 
+ .contenu{
+    display: flex;
+    justify-content: center;
+ }

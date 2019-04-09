@@ -1,10 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import { CommonModule } from '@angular/common';
+import { CocktailListComponent } from './cocktail-list/cocktail-list.component';
+
+
+
+const routes: Routes = [
+{ path: 'cocktail-list', component: CocktailListComponent},
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+declarations: [],
+
+imports: [
+CommonModule,
+[RouterModule.forRoot(routes)]],
+
+exports: [RouterModule]
 })
 export class AppRoutingModule { }
